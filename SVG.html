@@ -1,0 +1,74 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="SVG.css">
+  </head>
+  <body>
+    <svg width="100%" viewBox="0 0 1300 600">
+<!--TITLE-->
+    <!--  <text x="50" y="50" font-family="sans-serif" font-size="25" fill="white">Hello World!</text>-->
+
+      <!--background-->
+      <rect id="background" x="0" y="" width="1300" height="600" fill="white">
+        <animate attributeName="fill" from="white" to="#2d3542" dur="2s" fill="freeze" begin="sun.end"/>
+      </rect>
+    <!--floor-->
+    <rect x="0" y="550" width="1300" height="50" fill="grey"/>
+
+    <!-- truck -->
+
+                                                      <!-- cargo -->
+    <ellipse cx="15" cy="472" rx="8" ry="5" fill="#bfa26d"></ellipse>
+    <ellipse cx="30" cy="472" rx="8" ry="5" fill="#bfa26d"></ellipse>
+    <ellipse cx="45" cy="472" rx="8" ry="5" fill="#bfa26d"></ellipse>
+    <ellipse cx="60" cy="472" rx="8" ry="5" fill="#bfa26d"></ellipse>
+    <ellipse cx="75" cy="472" rx="8" ry="5" fill="#bfa26d"></ellipse>
+    <ellipse cx="90" cy="472" rx="8" ry="5" fill="#bfa26d"></ellipse>
+
+    <ellipse cx="22" cy="463" rx="8" ry="5" fill="#bfa26d"></ellipse>
+    <ellipse cx="37" cy="463" rx="8" ry="5" fill="#bfa26d"></ellipse>
+    <ellipse cx="52" cy="463" rx="8" ry="5" fill="#bfa26d"></ellipse>
+    <ellipse cx="67" cy="463" rx="8" ry="5" fill="#bfa26d"></ellipse>
+    <ellipse cx="82" cy="463" rx="8" ry="5" fill="#bfa26d"></ellipse>
+
+                                                      <!-- body -->
+    <rect x="0" y="476" width="126" height="49" fill="#ad0f0f">
+      <animate attributeName="x" from="0" to="945" dur="19s" fill="freeze" begin="sun.end"/>
+    </rect>
+    <rect x="100" y="425" width="76" height="100" fill="#ad0f0f">
+      <animate attributeName="x" from="100" to="1050" dur="19s"  fill="freeze"  begin="sun.end"/>
+    </rect>
+    <rect x="175" y="475" width="105" height="50" fill="#ad0f0f">
+      <animate attributeName="x" from="175" to="1125" dur="19s"  fill="freeze"  begin="sun.end"/>
+    </rect>
+    <polygon points="225 476,175 425,175 476" fill="#ad0f0f">
+      <animate attributeName="points" from="225 476,175 425,175 476" to="1175 476,1125 425,1125 476" dur="19s" fill="freeze" begin="sun.end"/>
+    </polygon>
+    <circle cx="75" cy="525" r="25" fill="black">
+      <animate attributeName="cx" from="75" to="1025" dur="19s"  fill="freeze"  begin="sun.end"/>
+    </circle>
+    <circle cx="225" cy="525" r="25" fill="black">
+      <animate attributeName="cx" from="225" to="1175" dur="19s"  fill="freeze"  begin="sun.end"/>
+    </circle>
+
+                                                    <!-- lights -->
+    <polygon points="280 484,675 425,675 545" fill="yellow" fill-opacity="0">
+    <animate attributeName="fill-opacity" from="0" to=".25" dur="2s" fill="freeze" begin="sun.end"/>
+    <animate attributeName="points" from="280 484,675 425,675 545" to="1222 484,1675 425,1675 545" dur="19s"  fill="freeze"  begin="sun.end"/>
+    </polygon>
+    <ellipse cx="275" cy="485" rx="5" ry="8" fill="yellow" fill-opacity="0">
+      <animate attributeName="fill-opacity" from="0" to="1" dur="2s" fill="freeze" begin="sun.end"/>
+      <animate attributeName="cx" from="277" to="1222" dur="19s"  fill="freeze"  begin="sun.end"/>
+    </ellipse>
+
+
+
+    <!-- sun  to moon-->
+    <circle cx="1250" cy="50" r="50" fill="yellow">
+    <animate id="sun" attributeName="fill" from="yellow" to="#f4f4f4" dur="2s" fill="freeze"  begin="click"/>
+
+    </circle>
+
+</svg>
+  </body>
+</html>
