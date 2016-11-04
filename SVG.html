@@ -3,33 +3,55 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="SVG.css">
   </head>
+  <title>THE Journey</title>
   <body>
-    <svg width="100%" viewBox="0 0 1300 600">
-<!--TITLE-->
-    <!--  <text x="50" y="50" font-family="sans-serif" font-size="25" fill="white">Hello World!</text>-->
+    <svg width="100%" viewBox="0 0 1300 600" xmlns="http://www.w3.org/2000/svg" version="1.1"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
 
       <!--background-->
-      <rect id="background" x="0" y="" width="1300" height="600" fill="white">
+      <rect id="background" x="0" y="0" width="1300" height="600" fill="#dbe8ff">
         <animate attributeName="fill" from="white" to="#2d3542" dur="2s" fill="freeze" begin="sun.end"/>
       </rect>
+      <text x="800" y="50" font-family="Baloo Tamma" font-size="40" fill="white">The Journey</text>
     <!--floor-->
     <rect x="0" y="550" width="1300" height="50" fill="grey"/>
 
     <!-- truck -->
-
                                                       <!-- cargo -->
-    <ellipse cx="15" cy="472" rx="8" ry="5" fill="#bfa26d"></ellipse>
-    <ellipse cx="30" cy="472" rx="8" ry="5" fill="#bfa26d"></ellipse>
-    <ellipse cx="45" cy="472" rx="8" ry="5" fill="#bfa26d"></ellipse>
-    <ellipse cx="60" cy="472" rx="8" ry="5" fill="#bfa26d"></ellipse>
-    <ellipse cx="75" cy="472" rx="8" ry="5" fill="#bfa26d"></ellipse>
-    <ellipse cx="90" cy="472" rx="8" ry="5" fill="#bfa26d"></ellipse>
+    <ellipse cx="15" cy="472" rx="8" ry="5" fill="#bfa26d">
+      <animate attributeName="cx" from="15" to="960" dur="19s"  fill="freeze"  begin="sun.end"/>
+</ellipse>
+    <ellipse cx="30" cy="472" rx="8" ry="5" fill="#bfa26d">
+      <animate attributeName="cx" from="30" to="975" dur="19s"  fill="freeze"  begin="sun.end"/>
+</ellipse>
+    <ellipse cx="45" cy="472" rx="8" ry="5" fill="#bfa26d">
+      <animate attributeName="cx" from="45" to="990" dur="19s"  fill="freeze"  begin="sun.end"/>
+</ellipse>
+    <ellipse cx="60" cy="472" rx="8" ry="5" fill="#bfa26d">
+      <animate attributeName="cx" from="60" to="1005" dur="19s"  fill="freeze"  begin="sun.end"/>
+</ellipse>
+    <ellipse cx="75" cy="472" rx="8" ry="5" fill="#bfa26d">
+      <animate attributeName="cx" from="75" to="1020" dur="19s"  fill="freeze"  begin="sun.end"/>
+</ellipse>
+    <ellipse cx="90" cy="472" rx="8" ry="5" fill="#bfa26d">
+      <animate attributeName="cx" from="90" to="1035" dur="19s"  fill="freeze"  begin="sun.end"/>
+</ellipse>
 
-    <ellipse cx="22" cy="463" rx="8" ry="5" fill="#bfa26d"></ellipse>
-    <ellipse cx="37" cy="463" rx="8" ry="5" fill="#bfa26d"></ellipse>
-    <ellipse cx="52" cy="463" rx="8" ry="5" fill="#bfa26d"></ellipse>
-    <ellipse cx="67" cy="463" rx="8" ry="5" fill="#bfa26d"></ellipse>
-    <ellipse cx="82" cy="463" rx="8" ry="5" fill="#bfa26d"></ellipse>
+    <ellipse cx="22" cy="463" rx="8" ry="5" fill="#bfa26d">
+      <animate attributeName="cx" from="22" to="967" dur="19s"  fill="freeze"  begin="sun.end"/>
+</ellipse>
+    <ellipse cx="37" cy="463" rx="8" ry="5" fill="#bfa26d">
+      <animate attributeName="cx" from="37" to="983" dur="19s"  fill="freeze"  begin="sun.end"/>
+</ellipse>
+    <ellipse cx="52" cy="463" rx="8" ry="5" fill="#bfa26d">
+      <animate attributeName="cx" from="52" to="997" dur="19s"  fill="freeze"  begin="sun.end"/>
+</ellipse>
+    <ellipse cx="67" cy="463" rx="8" ry="5" fill="#bfa26d">
+      <animate attributeName="cx" from="67" to="1013" dur="19s"  fill="freeze"  begin="sun.end"/>
+</ellipse>
+    <ellipse cx="82" cy="463" rx="8" ry="5" fill="#bfa26d">
+      <animate attributeName="cx" from="82" to="1027" dur="19s"  fill="freeze"  begin="sun.end"/>
+</ellipse>
 
                                                       <!-- body -->
     <rect x="0" y="476" width="126" height="49" fill="#ad0f0f">
@@ -61,14 +83,40 @@
       <animate attributeName="cx" from="277" to="1222" dur="19s"  fill="freeze"  begin="sun.end"/>
     </ellipse>
 
+    <!--cloud-->
+    <circle cx="223" cy="105" r="25" fill="white">
+      <animate attributeName="cx" from="223" to="233" dur="1s" repeatCount="indefinite"/>
+      <animate attributeName="fill" from="white" to="#cccccc" dur="2s" fill="freeze"  begin="sun.end"/>
 
+    </circle>
+    <circle cx="260" cy="100" r="30" fill="white">
+      <animate attributeName="cx" from="260" to="270" dur="1s" repeatCount="indefinite"/>
+      <animate attributeName="fill" from="white" to="#cccccc" dur="2s"  fill="freeze" begin="sun.end"/>
+    </circle>
+    <circle cx="300" cy="105" r="22" fill="white">
+      <animate attributeName="cx" from="300" to="310" dur="1s" repeatCount="indefinite"/>
+      <animate attributeName="fill" from="white" to="#cccccc" dur="2s"  fill="freeze"  begin="sun.end"/>
+    </circle>
+
+    <circle cx="563" cy="105" r="22" fill="white">
+      <animate attributeName="cx" from="563" to="573" dur="1s" repeatCount="indefinite"/>
+      <animate attributeName="fill" from="white" to="#cccccc" dur="2s"  fill="freeze" begin="sun.end"/>
+    </circle>
+    <circle cx="600" cy="100" r="30" fill="white">
+      <animate attributeName="cx" from="600" to="610" dur="1s" repeatCount="indefinite"/>
+      <animate attributeName="fill" from="white" to="#cccccc" dur="2s"  fill="freeze" begin="sun.end"/>
+    </circle>
+    <circle cx="640" cy="105" r="25" fill="white">
+      <animate attributeName="cx" from="640" to="650" dur="1s" repeatCount="indefinite"/>
+      <animate attributeName="fill" from="white" to="#cccccc" dur="2s"  fill="freeze" begin="sun.end"/>
+    </circle>
 
     <!-- sun  to moon-->
     <circle cx="1250" cy="50" r="50" fill="yellow">
     <animate id="sun" attributeName="fill" from="yellow" to="#f4f4f4" dur="2s" fill="freeze"  begin="click"/>
-
     </circle>
-
 </svg>
+<p>One Day this curious truck was on a road trip to a place named no where. The truck didn't know where it was going. The truck spent its entire day going no where. It soons become dark and it is going no where.</p>
+<h1>Click On The Sun</h1>
   </body>
 </html>
